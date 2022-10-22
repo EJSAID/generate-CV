@@ -73,16 +73,16 @@
                 <ul>
                     <li>
                         <span class="text"> <input type="text" placeholder="Language 1" name="lang1"></span>
-                        <input type="range" style="width: 95%;">
+                        <input name="range11" type="range" style="width: 95%;">
                        
                     </li>
                     <li>
                         <span class="text"> <input type="text" placeholder="Language 2" name="lang2"></span>
-                        <input type="range" style="width: 95%;" >
+                        <input name="range12" type="range" style="width: 95%;" >
                     </li>
                     <li>
                         <span class="text">  <input type="text" placeholder="Language 3" name="lang3"></span>
-                        <input type="range" style="width: 95%;">
+                        <input name="range13" type="range" style="width: 95%;">
                     </li>                    
                 </ul>
                 <div class="QR">
