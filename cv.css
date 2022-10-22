@@ -84,14 +84,69 @@ body{
 
 
 
+@media (max-width:400px){
+    header{
+        padding: 12px 20px;
+    }
 
-/*
-.logo{
-    color: violet;
-    text-shadow: 10px 10px 20px blue;
-    font-size: 90px;
-    background-color: black;} */
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media(max-width:767px){
+    .main {
+    background-position: center center;
    
+
+  
+}
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+        
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+
+
 
 
 
