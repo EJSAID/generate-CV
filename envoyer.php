@@ -71,15 +71,15 @@
                 <ul>
                     <li>
                         <span class="text"><?php echo $_POST["lang1"] ,"<br>";?></span>
-                        <span class="percent"> <div style="width:60%;"></div></span>
+                        <span class="percent"><div <?php echo 'style="width:',$_POST["range11"] ,'%;"';?>></div></span>
                     </li>
                     <li>
                         <span class="text"><?php echo $_POST["lang2"] ,"<br>";?></span>
-                        <span class="percent"> <div style="width:90%;"></div></span>
+                        <span class="percent"><div <?php echo 'style="width:',$_POST["range12"] ,'%;"';?>></div></span>
                     </li>
                     <li>
                         <span class="text"><?php echo $_POST["lang3"] ,"<br>";?></span>
-                        <span class="percent"> <div style="width:50%;"></div></span>
+                        <span class="percent"><div <?php echo 'style="width:',$_POST["range13"] ,'%;"';?>></div></span>
                     </li>                    
                 </ul>
                 <div class="QR">
