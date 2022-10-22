@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+ 
+   
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: sticky;
+    top: 0;
+   
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px;
+   
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+    font-size: 30px;
+}
+
+.navbar ul li{
+    position :relative;
+    right:30%;
+}
+.navbar ul li a:hover{
+    background-color: violet;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("d5kevc9-ab73d517-9270-4199-98d2-468081dfb85b.png"); 
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-position:center;
+}
+
+.navbar .logo{
+    color: violet;
+    text-shadow: 10px 10px 20px blue;
+    font-size: 90px;
+    margin-right: 850px;
+    
+}
+.main-btn {
+    color: white;
+    background-color:#DC143C ;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+   position: relative;
+   left: 10%;
+   top: 30%;
+  
+
+}
+.main-btn:hover {
+    background-color:black ;
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*
+.logo{
+    color: violet;
+    text-shadow: 10px 10px 20px blue;
+    font-size: 90px;
+    background-color: black;} */
+   
+
+
+
+
+
