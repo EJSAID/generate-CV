@@ -46,15 +46,16 @@ body{
     height: 100vh;
     background-image: url("d5kevc9-ab73d517-9270-4199-98d2-468081dfb85b.png"); 
     background-repeat: no-repeat;
-    background-size:100% 100% ;
-    background-position:center;
+    background-size:cover ;
+    
 }
 
 .navbar .logo{
     color: violet;
     text-shadow: 10px 10px 20px blue;
     font-size: 90px;
-    margin-right: 850px;
+    position: relative;
+    right:90%;
     
 }
 .main-btn {
