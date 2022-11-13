@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <script type="text/javascript"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Realisation de CV</title>
@@ -165,7 +166,8 @@
       
      </ul> 
         </div> 
-       
+          <form><input type="button"  value="print" onclick="window.print()"/>
+    </form>
 </body>
 
 </html>  
